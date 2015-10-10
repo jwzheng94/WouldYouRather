@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">WouldYouRather</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">My Application</string>
+    <string name="back_to_main_menu">back to main menu</string>
+    <string name="ask_another_question">ask another question</string>
+    <string name="ask_a_question">ask a question</string>
+    <string name="answer_a_question">answer a question</string>
+    <string name="answer_another_question">answer another question</string>
+    <string name="asking_prompt">ENTER TWO CHOICES FOR A \"WOULD YOU RATHER QUESTION?\":</string>
+    <string name="answering_prompt">WOULD YOU RATHER:</string>
+    <string name="next">NEXT</string>
 </resources>
