@@ -9,4 +9,6 @@
     <string name="asking_prompt">ENTER TWO CHOICES FOR A \"WOULD YOU RATHER QUESTION?\":</string>
     <string name="answering_prompt">WOULD YOU RATHER:</string>
     <string name="next">NEXT</string>
+    <string name="poll_result_1">TODO:INSERT RESULTS HERE</string>
+    <string name="title_activity_ask_question">AskQuestionActivity</string>
 </resources>
