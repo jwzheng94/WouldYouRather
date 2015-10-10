@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="250sp"
+            android:text="@string/ask_another_question"
+            android:id="@+id/button2"
+            android:layout_column="2"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#93648d" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:text="@string/back_to_main_menu"
+            android:id="@+id/button3"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:backgroundTint="#7bc8a4"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:typeface="monospace"
+            android:textStyle="bold" />
+    </TableRow>
+</TableLayout>

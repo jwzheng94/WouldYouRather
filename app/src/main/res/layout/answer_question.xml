@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/answering_prompt"
+            android:id="@+id/textView"
+            android:layout_column="0"
+            android:background="#ffc65d"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="200sp"
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_column="0"
+            android:background="#4cc3d9"
+            android:layout_marginTop="5sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="200sp"
+            android:text="New Button"
+            android:id="@+id/button4"
+            android:layout_column="0"
+            android:background="#7bc8a4"
+            android:layout_marginTop="5sp" />
+    </TableRow>
+
+</TableLayout>
