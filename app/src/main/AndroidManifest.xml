@@ -37,6 +37,11 @@
             android:label="@string/title_activity_ask_result"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".AnswerResultActivity"
+            android:label="@string/title_activity_answer_result"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

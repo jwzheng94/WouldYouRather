@@ -9,12 +9,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-public class AskResultActivity extends AppCompatActivity {
+public class AnswerResultActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ask_result);
+        setContentView(R.layout.answer_result);
         /*
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -28,15 +28,16 @@ public class AskResultActivity extends AppCompatActivity {
             }
         });
         */
-        Button anotherQuestion = (Button) findViewById(R.id.ask_another_question);
-        anotherQuestion.setOnClickListener(new View.OnClickListener() {
+        Button answerAnotherQuestion = (Button) findViewById(R.id.answer_another_question);
+        answerAnotherQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), AskQuestionActivity.class);
+                Intent i = new Intent(getApplicationContext(), AnswerQuestionActivity.class);
                 startActivity(i);
             }
         });
-        Button mainMenu = (Button) findViewById(R.id.main_menu1);
+
+        Button mainMenu = (Button) findViewById(R.id.main_menu2);
         mainMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

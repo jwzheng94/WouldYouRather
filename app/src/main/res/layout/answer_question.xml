@@ -30,11 +30,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="200sp"
-            android:text="New Button"
-            android:id="@+id/button"
+            android:text="@string/choice1"
+            android:id="@+id/option1"
             android:layout_column="0"
             android:background="#4cc3d9"
-            android:layout_marginTop="5sp" />
+            android:layout_marginTop="5sp"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
     </TableRow>
 
     <TableRow
@@ -44,11 +46,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="200sp"
-            android:text="New Button"
-            android:id="@+id/button4"
+            android:text="@string/choice2"
+            android:id="@+id/option2"
             android:layout_column="0"
             android:background="#7bc8a4"
-            android:layout_marginTop="5sp" />
+            android:layout_marginTop="5sp"
+            android:textSize="30sp"
+            android:textColor="#ffffff" />
     </TableRow>
 
 </TableLayout>
