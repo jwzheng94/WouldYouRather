@@ -11,4 +11,6 @@
     <string name="next">NEXT</string>
     <string name="poll_result_1">TODO:INSERT RESULTS HERE</string>
     <string name="title_activity_ask_question">AskQuestionActivity</string>
+    <string name="title_activity_answer_question">AnswerQuestionActivity</string>
+    <string name="title_activity_ask_result">AskResultActivity</string>
 </resources>

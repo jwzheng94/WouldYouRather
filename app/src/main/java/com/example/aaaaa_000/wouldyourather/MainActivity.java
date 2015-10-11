@@ -38,6 +38,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        Button answer = (Button) findViewById(R.id.answer_button);
+        answer.setOnClickListener(new View.OnClickListener(){
+           @Override
+           public void onClick(View v) {
+               Intent i = new Intent(getApplicationContext(), AnswerQuestionActivity.class);
+               startActivity(i);
+           }
+        });
+
     }
 
 
