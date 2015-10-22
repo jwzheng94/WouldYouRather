@@ -57,6 +57,7 @@ public class AskQuestionActivity extends AppCompatActivity {
 
                     Intent i = new Intent(getApplicationContext(), AskResultActivity.class);
                     startActivity(i);
+                    finish();
                 }
 
             }
