@@ -30,7 +30,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="125sp"
-            android:id="@+id/editText"
+            android:id="@+id/answer1"
             android:layout_column="0" />
     </TableRow>
 
@@ -41,7 +41,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="125sp"
-            android:id="@+id/editText2"
+            android:id="@+id/answer2"
             android:layout_column="0" />
     </TableRow>
 

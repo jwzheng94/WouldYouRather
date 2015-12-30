@@ -34,6 +34,7 @@ public class AnswerResultActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), AnswerQuestionActivity.class);
                 startActivity(i);
+                finish();
             }
         });
 
@@ -43,6 +44,7 @@ public class AnswerResultActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(i);
+                finish();
             }
         });
     }

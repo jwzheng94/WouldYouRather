@@ -34,6 +34,7 @@ public class AskResultActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), AskQuestionActivity.class);
                 startActivity(i);
+                finish();
             }
         });
         Button mainMenu = (Button) findViewById(R.id.main_menu1);
@@ -42,6 +43,7 @@ public class AskResultActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(i);
+                finish();
             }
         });
     }
