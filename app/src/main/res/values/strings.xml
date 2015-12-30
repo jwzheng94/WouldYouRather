@@ -15,6 +15,6 @@
     <string name="title_activity_ask_result">AskResultActivity</string>
     <string name="title_activity_ask_another_question">AskAnotherQuestion</string>
     <string name="title_activity_answer_result">AnswerResultActivity</string>
-    <string name='choice1'>be forced to say "M'lady every time you address a woman</string>
-    <string name='choice2'>yell "I'm an Atheist" as loud as possible every time someone says "God Bless You"</string>
+    <string name='choice1'></string>
+    <string name='choice2'></string>
 </resources>
