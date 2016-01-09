@@ -17,4 +17,5 @@
     <string name="title_activity_answer_result">AnswerResultActivity</string>
     <string name='choice1'></string>
     <string name='choice2'></string>
+    <string name="title_activity_front_screen">FrontScreenActivity</string>
 </resources>
